@@ -5,11 +5,19 @@ body {
 
 .header {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header .main-container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 10px 700px 10px 700px;
+    width: 1000px;
+    padding: 25px
 }
 
 .header-logo {
@@ -39,16 +47,25 @@ a:hover {
 
 .section-1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.section-1 .main-container {
+    display: flex;
     justify-content: space-between;
-    padding: 50px 700px 50px 700px;
+    align-items: center;
     background-color: #1F2937;
     color: white;
-    gap: 100px;
+    width: 1000px;
+    padding: 80px
 }
 
 .section-1 .left {
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .section-1 .title {
@@ -83,15 +100,24 @@ a:hover {
 
 .section-2 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-family: 'Hero New', sans-serif;
-    padding: 10px 700px 10px 700px;
+}
+
+.section-2 .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    padding: 50px
 }
 
 .section-2 .title {
     font-weight: bold;
     font-size: 40px;
+    margin-top: 0;
 }
 
 .section-2 .container {
@@ -108,6 +134,10 @@ a:hover {
     font-size: 20px;
 }
 
+.image-container p {
+    margin-bottom: 0;
+}
+
 .square {
     width: 200px;
     height: 200px;
@@ -117,10 +147,19 @@ a:hover {
 
 .section-3 {
     display: flex;
-    flex-direction: column;
-    background-color: #E5E7EB;
+    justify-content: center;
     align-items: center;
-    padding: 10px 700px 10px 700px;
+    font-family: 'Hero New', sans-serif;
+    background-color: #E5E7EB;
+}
+
+.section-3 .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    padding: 50px
 }
 
 .quote {
@@ -144,7 +183,7 @@ a:hover {
 }
 
 
-.main-container {
+.section-4 .main-container {
     display: flex;
     width: 950px;
     height: 100px;
